@@ -1,0 +1,16 @@
+## Interface: 30000
+
+## Title: OMGSTFU
+## Notes: I don't like spam!
+## Author: Tekkub Stoutwrithe
+## Version: Alpha
+## X-Website: http://www.tekkub.net/
+## X-Email: tekkub-wow@googlegroups.com
+## X-Category: Misc
+
+## OptionalDeps: tekDebug, tekErr
+
+LibStub.lua
+tekKonfigAboutPanel.lua
+
+OMGSTFU.lua

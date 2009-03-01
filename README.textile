@@ -1,0 +1,20 @@
+OMGSTFU is a simple water/food managing addon inspired by "BaudConsumables":http://wow.curse.com/downloads/details/5827/
+and "Munchies":http://www.wowinterface.com/downloads/info8174-Munchies.html.
+
+Unlike Baud and Munchies, OMGSTFU does not swap items on the action bar (the noise bothered me).
+Instead it edits macros on the fly (out of combat) to provide you with the best food, water, potions, stones, and bandages.
+
+To make OMGSTFU work, you must provide two macros, "AutoHP" and "AutoMP".
+Drop these on your action bar like any other macro,
+OMGSTFU will change the macros as needed to provide you with food and drink out of combat, potions and stones in combat, and bandages on shift (HP macro only, of course).
+OMGSTFU will always pick the smaller stack if equal-strength items are found.  Conjured items will always be preferred over permanent ones.
+
+OMGSTFU does not yet support zone-specific items.
+
+Why don't we also test @some code tags@
+
+h2. Links
+
+<b>Visit "my site":http://www.tekkub.net/addons/OMGSTFU for more info.<br>
+Please report all bugs and feature requests to my "Google Code":http://code.google.com/p/tekkub-wow/issues/list?can=1&q=addon:OMGSTFU&sort=status+milestone&colspec=ID%20Type%20Status%20Addon%20Milestone%20Summary tracker<br>
+Please direct all feedback and questions to my "Google Groups":http://groups-beta.google.com/group/tekkub-wow mailinglist.</b>
