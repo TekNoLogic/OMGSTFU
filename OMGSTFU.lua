@@ -19,9 +19,8 @@ local filterstrings = {
 	"^Hey %a+$",
 	"^Grats! %a+$",
 	"^Gratz! %a+$",
+	"^Gratz!$",
 	"GRATS ON YOU",
-	"%d+%. %S+%s*%d+ %([%d.]+, [%d.]+%%%)", -- Recount
-	"%d+%. - [%d.]+%%% %S+%s*%d+", -- ???
 }
 ChatFrame_AddMessageEventFilter("CHAT_MSG_GUILD", function(self, event, msg)
 	for _,str in pairs(filterstrings) do
