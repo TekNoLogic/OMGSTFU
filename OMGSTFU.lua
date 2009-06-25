@@ -23,7 +23,7 @@ local filterstrings = {
 	"%d+%. %S+%s*%d+ %([%d.]+, [%d.]+%%%)", -- Recount
 	"%d+%. - [%d.]+%%% %S+%s*%d+", -- ???
 }
-ChatFrame_AddMessageEventFilter("CHAT_MSG_GUILD", function(msg)
+ChatFrame_AddMessageEventFilter("CHAT_MSG_GUILD", function(self, event, msg)
 	for _,str in pairs(filterstrings) do
 		if msg:match(str) then
 			Debug("Supressing chat message", msg)
