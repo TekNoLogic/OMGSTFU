@@ -13,6 +13,8 @@ local filterstrings = {
 	"^Hi %a+, welcome back$",
 	"^Hi again %a+$",
 	"^Hello %a+$",
+	"^Congratz!!$",
+	"^Congratulations %a+!$",
 	"^Congratulations %a+ on reaching level %d+$",
 	"^Hey %a+ Good job on getting level %d+!$",
 	"^%a+, grats on getting level %d+$",
