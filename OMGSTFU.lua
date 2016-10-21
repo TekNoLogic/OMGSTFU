@@ -35,4 +35,11 @@ end
 )
 
 
+-- Gets rid of those stupid "real name" prefixes that some shitty addon adds
+ChatFrame_AddMessageEventFilter("CHAT_MSG_GUILD", function(self, event, msg, ...)
+	return false, msg:gsub("%([^)]+%): ", ""), ...
+end
+)
+
+
 LibStub("tekKonfig-AboutPanel").new(nil, "OMGSTFU")
