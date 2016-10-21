@@ -19,9 +19,9 @@ local filterstrings = {
 	"^Hey %a+ Good job on getting level %d+!$",
 	"^%a+, grats on getting level %d+$",
 	"^Hey %a+$",
-	"^Grats! %a+$",
-	"^Gratz! %a+$",
-	"^Gratz!$",
+	"^Grats!? %a+$",
+	"^Gratz!? %a+$",
+	"^Gratz!?$",
 	"GRATS ON YOU",
 }
 ChatFrame_AddMessageEventFilter("CHAT_MSG_GUILD", function(self, event, msg)
